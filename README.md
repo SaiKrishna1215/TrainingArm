@@ -4,4 +4,6 @@ Create a conda environment using environment.yml which will automatically instal
   conda env create -f environment.yml
 </pre>
 <h2>Walkthrough</h2>
-1) Create 
+. 1) Train the policy using either mjrl training (uses MuJoCo Reinforcement Learning module), or sb3 training (uses Stable Baselines 3 module). 
+. 2) 
+
