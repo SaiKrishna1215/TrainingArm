@@ -1,7 +1,7 @@
 <h1>How to Run the Code</h1>
 <p>Create a conda environment using <code>environment.yml</code> which will automatically install all required dependencies. (Note: Use Anaconda preferably)</p>
 <pre><code>conda env create -f environment.yml</code></pre>
-(or use the Anaconda GUI to import environment)
+(or use the Anaconda GUI to import environment) <br>
 If environment.yml doesn't work for whatever reason you can:
 <pre><code>conda env create -n myosuite</code></pre>
 <pre><code>conda install python=3.8.18</code></pre>
