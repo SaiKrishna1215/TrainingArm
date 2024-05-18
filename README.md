@@ -1,9 +1,15 @@
-<h1> How to run code </h1>
-Create a conda environment using environment.yml which will automatically install all dependencies required (note: use Anaconda preferably) :
-<pre>
-  conda env create -f environment.yml
-</pre>
-<h2>Walkthrough</h2>
-. 1) Train the policy using either mjrl training (uses MuJoCo Reinforcement Learning module), or sb3 training (uses Stable Baselines 3 module). 
-. 2) 
+<h1>How to Run the Code</h1>
+<p>Create a conda environment using <code>environment.yml</code> which will automatically install all required dependencies. (Note: Use Anaconda preferably)</p>
+<pre><code>conda env create -f environment.yml</code></pre>
 
+<h2>Walkthrough</h2>
+<ol>
+  <li>Train the policy using either <strong>mjrl training</strong> (MuJoCo Reinforcement Learning module) or <strong>sb3 training</strong> (Stable Baselines 3 module).</li>
+  <li>After training is done, verify the visual outcome using <strong>load policy</strong>.</li>
+</ol>
+
+<h2>Miscellaneous</h2>
+<ul>
+  <li><strong>Inverse Dynamics:</strong> Reproduce a movement from a CSV file that stores the intensity of each muscle actuator as a function of time.</li>
+  <li><strong>Testing Models:</strong> Use this to see the composition of models, primarily how many joints and muscles the model has.</li>
+</ul>
