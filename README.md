@@ -1,6 +1,7 @@
 <h1>How to Run the Code</h1>
 <p>Create a conda environment using <code>environment.yml</code> which will automatically install all required dependencies. (Note: Use Anaconda preferably)</p>
 <pre><code>conda env create -f environment.yml</code></pre>
+(or use the Anaconda GUI to import environment)
 
 <h2>Walkthrough</h2>
 <ol>
