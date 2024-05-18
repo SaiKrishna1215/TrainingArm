@@ -1,8 +1,7 @@
-name: myosuite 
+name: myosuite
 channels:
   - defaults
 dependencies:
-  - https://github.com/ElyasYassin/AlBornoLab-myosuite.git
   - anyio=4.2.0=py38haa95532_0
   - argon2-cffi=21.3.0=pyhd3eb1b0_0
   - argon2-cffi-bindings=21.2.0=py38h2bbff1b_0
@@ -11,7 +10,7 @@ dependencies:
   - attrs=23.1.0=py38haa95532_0
   - babel=2.11.0=py38haa95532_0
   - backcall=0.2.0=pyhd3eb1b0_0
-  - beautifulsoup4=4.12.2=py38haa95532_0d
+  - beautifulsoup4=4.12.2=py38haa95532_0
   - bleach=4.1.0=pyhd3eb1b0_0
   - brotli-python=1.0.9=py38hd77b12b_7
   - ca-certificates=2023.12.12=haa95532_0
@@ -70,7 +69,7 @@ dependencies:
   - pygments=2.15.1=py38haa95532_1
   - pyopenssl=23.2.0=py38haa95532_0
   - pysocks=1.7.1=py38haa95532_0
-  - python=3.8.18
+  - python=3.8.18=h1aa4202_0
   - python-dateutil=2.8.2=pyhd3eb1b0_0
   - python-fastjsonschema=2.16.2=py38haa95532_0
   - python-json-logger=2.0.7=py38haa95532_0
@@ -148,6 +147,7 @@ dependencies:
       - gym==0.13.0
       - gym-notices==0.0.8
       - gymnasium==0.29.1
+      - h5py==3.1.0
       - idna==3.6
       - imageio==2.33.1
       - imageio-ffmpeg==0.4.9
@@ -162,8 +162,7 @@ dependencies:
       - markdown==3.5.2
       - markdown-it-py==3.0.0
       - matplotlib==3.6.3
-      - mdurl==0.1.2
-      - git+https://github.com/aravindr93/mjrl
+      - mdurl==0.1.2 
       - mpmath==1.3.0
       - msgpack==1.0.7
       - msgpack-numpy==0.4.8
@@ -200,7 +199,7 @@ dependencies:
       - tabulate==0.9.0
       - tensorboard==2.14.0
       - tensorboard-data-server==0.7.2
-      - tensorflow-estimator==2.15.0s
+      - tensorflow-estimator==2.15.0
       - termcolor==2.4.0
       - threadpoolctl==3.3.0
       - torch==2.2.0
@@ -209,4 +208,3 @@ dependencies:
       - urllib3==2.2.0
       - werkzeug==3.0.1
       - wrapt==1.12.1
-prefix: C:\Users\Elyas\anaconda3\envs\myosuite
