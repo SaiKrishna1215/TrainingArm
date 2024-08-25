@@ -1,7 +1,7 @@
 <h1>How to Run the Code</h1>
 <p>First, clone the repository into your system </p>
 <p>Create a conda environment using <code>environment.yml</code> which will automatically install all required dependencies. (Note: Use Anaconda preferably)</p>
-<h2><b>For windows</b></h2>
+<h2><b>For Windows</b></h2>
 <pre> <code>conda env create -f environment.yml</code></pre>
 <pre><code>pip install git+https://github.com/ElyasYassin/AlBornoLab-myosuite.git</code></pre>
 <pre><code>pip install git+https://github.com/ElyasYassin/mjrl-modified.git@pvr_beta_1vk</code></pre>
