@@ -9,7 +9,7 @@
 <h2><b>If environment.yml doesn't work on Windows (Also works on Linux/Mac):</b></h2>
 <pre><code>conda env create -n myosuite</code></pre>
 <pre><code>conda install python=3.8.18</code></pre>
-<pre><code>pip install -r requirement</code></pre>
+<pre><code>pip install -r requirements</code></pre>
 <pre><code>pip install git+https://github.com/ElyasYassin/AlBornoLab-myosuite.git</code></pre>
 <pre><code>pip install git+https://github.com/ElyasYassin/mjrl-modified.git@pvr_beta_1vk</code></pre>
 
