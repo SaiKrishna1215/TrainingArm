@@ -7,7 +7,7 @@
 <h2> If environment.yml doesn't work for whatever reason you can:</h2>
 <pre><code>conda env create -n myosuite</code></pre>
 <pre><code>conda install python=3.8.18</code></pre>
-<pre><code>pip install -r requirement</code></pre>
+<pre><code>pip install -r requirements.txt</code></pre>
 
 <h2>Walkthrough</h2>
 <ol>
